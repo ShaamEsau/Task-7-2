@@ -1,0 +1,40 @@
+/* Changes background color */
+body{
+	background-color: powderblue;
+}
+
+/* Aligns the text to the center */
+h1, h2{
+	text-align: center;
+}
+
+
+/* Aligns element to the left */
+#bioBox{
+	float: left;
+}
+
+
+/* Changes size of picture and aligns it to the left */
+#profPic{
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+
+/* Sets font to bold */
+#bioLab{
+	font-weight: bold;
+}
+
+/* Removes the border, changes background and aligns to the left */
+#bioLab, #bioInf{
+	background-color: transparent;
+	border: none;
+	float: left;
+}
+
+/* Sets the size of the textbox */
+#bioInf{
+	width: 1000px;
+}
